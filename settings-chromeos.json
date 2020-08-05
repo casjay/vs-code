@@ -1,0 +1,73 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "Fira Code, Hack Nerd Font, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Hack",
+  "editor.fontLigatures": true,
+  "php.validate.executablePath": "/usr/bin/env php",
+  "sync.gist": "",
+  "terminal.integrated.shell.windows": "/usr/bin/env bash",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.minimap.enabled": false,
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "enableTelemetry": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabCompletion": "on",
+  "editor.wordWrapColumn": 130,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.tabSize": 2,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "search.showLineNumbers": true,
+  "git.enableCommitSigning": true,
+  "git.showPushSuccessNotification": true,
+  "html.format.endWithNewline": true,
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "markdown.extension.toc.githubCompatibility": true,
+  "markdown.extension.toc.orderedList": true,
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "shellcheck.run": "manual",
+  "eslint.enable": true,
+  "css.remoteStyleSheets": [
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  ],
+  "files.associations": {
+    "sxhkdrc": "properties"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "prettier.printWidth": 130,
+  "bracketPairColorizer.forceUniqueOpeningColor": true,
+  "bracketPairColorizer.highlightActiveScope": true,
+  "liquid.format": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 130,
+  "html.mirrorCursorOnMatchingTag": true,
+  "html.format.wrapAttributes": "preserve",
+  "editor.formatOnPaste": true,
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "eslint.format.enable": true,
+  "markdown.preview.breaks": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
+}

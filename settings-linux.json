@@ -1,0 +1,105 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "Hack Nerd Font, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.suggestSelection": "first",
+  "editor.fontLigatures": true,
+  "editor.tabCompletion": "on",
+  "editor.wordWrapColumn": 130,
+  "editor.quickSuggestionsDelay": 2,
+  "editor.tabSize": 2,
+  "terminal.integrated.fontFamily": "Hack",
+  "php.validate.executablePath": "/usr/bin/env php",
+  "terminal.integrated.shell.windows": "/usr/bin/env bash",
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "enableTelemetry": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 130,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 130,
+  "html.mirrorCursorOnMatchingTag": true,
+  "html.format.wrapAttributes": "preserve",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "search.showLineNumbers": true,
+  "git.enableCommitSigning": true,
+  "git.showPushSuccessNotification": true,
+  "html.format.endWithNewline": true,
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "markdown.extension.toc.githubCompatibility": true,
+  "markdown.extension.toc.orderedList": true,
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "shellcheck.run": "manual",
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "liquid.format": false,
+  "javascript.format.semicolons": "insert",
+  "sync.gist": "",
+
+  "css.remoteStyleSheets": [
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  ],
+  "files.associations": {
+    "sxhkdrc": "properties"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "eslint"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 130,
+  "auto-close-tag.fullMode": true,
+  "auto-close-tag.SublimeText3Mode": true,
+  "bracketPairColorizer.forceUniqueOpeningColor": true,
+  "bracketPairColorizer.highlightActiveScope": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.lintTask.enable": true,
+  "go.autocompleteUnimportedPackages": true,
+  "html.format.enable": false,
+  "markdown.extension.print.theme": "dark",
+  "npm.enableRunFromFolder": true,
+  "npm-intellisense.scanDevDependencies": true,
+  "php.validate.run": "onType",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.requireConfig": true,
+  "prettier.requirePragma": true,
+  "prettier.trailingComma": "all",
+  "prettier.vueIndentScriptAndStyle": true,
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.ts": "prettier-tslint",
+  "yaml.format.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+    "emmet.includeLanguages":{
+    "jekyll": "html",
+    "scss": "css"
+  },
+  "cSpell.userWords": [
+    "Centralish",
+    "Hempstead",
+    "Malak",
+    "Miley",
+    "alot",
+    "sendformurl"
+  ],
+
+}

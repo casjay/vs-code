@@ -1,8 +1,7 @@
-
 {
   "bracketPairColorizer.colorMode": "Independent",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Hack, Fira Code",
+  "editor.fontFamily": "Hack",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "editor.formatOnPaste": true,
@@ -20,7 +19,6 @@
   "eslint.run": "onSave",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
   "git.enableCommitSigning": true,
   "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
@@ -33,17 +31,13 @@
   "powershell.codeFormatting.autoCorrectAliases": true,
   "python.pythonPath": "C:/Program Files/ActiveState/Python3/python.exe",
   "search.showLineNumbers": true,
-  "shellcheck.exclude": [
-    1017
-  ],
+  "shellcheck.exclude": [1017],
   "shellcheck.run": "manual",
   "shellcheck.useWSL": false,
   "sync.gist": "5212d43a45d5e66f99b5bb24e40dd1d8",
   "terminal.integrated.fontFamily": "Hack",
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "terminal.integrated.shellArgs.windows": [
-    "--login"
-  ],
+  "terminal.integrated.shellArgs.windows": ["--login"],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.fullScreenZenMode": false,
   "workbench.editor.highlightModifiedTabs": true,
@@ -51,6 +45,10 @@
   "workbench.iconTheme": "material-icon-theme",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.trimTrailingWhitespace": false,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
   },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -101,12 +99,44 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true,
+    "source.fixAll.eslint": true
+  },
   "explorer.confirmDelete": false,
   "vscode-home-assistant.hostUrl": "https://homehub.casjay.in",
   "vscode-home-assistant.ignoreCertificates": true,
   "vscode-home-assistant.longLivedAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3MTJiMGUzOWY1OWY0OWQxODNjNWEzZDRkODI1YmRhYSIsImlhdCI6MTU3MzQ3MDk1MiwiZXhwIjoxODg4ODMwOTUyfQ.R-Iye00SkuVk347Awp99J_dIs4mpz228TB5c178Qs4c",
   "cSpell.language": "en,en-US",
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "sass.lint.enable": true,
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownProperties": "ignore",
+  "liveSassCompile.settings.autoprefix": [],
+  "scss.validate": false,
+  "liveSassCompile.settings.generateMap": false,
+  "markdownlint.config": {
+    "MD013": false
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "shellcheck.executablePath": "",
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

@@ -9,4 +9,4 @@
   
 #### [ChromeOS Readme](README-chromeos.md)  
   
-  
+#### [Default KeyBindings](KeyBindings.md)  

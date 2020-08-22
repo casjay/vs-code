@@ -2,15 +2,16 @@
   
 # install extensions  
 
-code-server --install-extension aaron-bond.better-comments
-code-server --install-extension ahmadawais.shades-of-purple
-code-server --install-extension bengreenier.vscode-node-readme
-code-server --install-extension christian-kohler.npm-intellisense
-code-server --install-extension Cjay.ruby-and-rails-snippets
-code-server --install-extension CoenraadS.bracket-pair-colorizer
-code-server --install-extension d9705996.perl-toolbox
-code-server --install-extension DavidAnson.vscode-markdownlint
-code-server --install-extension dbaeumer.vscode-eslint
+```shell
+code-server --install-extension aaron-bond.better-comments  
+code-server --install-extension ahmadawais.shades-of-purple  
+code-server --install-extension bengreenier.vscode-node-readme  
+code-server --install-extension christian-kohler.npm-intellisense  
+code-server --install-extension Cjay.ruby-and-rails-snippets  
+code-server --install-extension CoenraadS.bracket-pair-colorizer  
+code-server --install-extension d9705996.perl-toolbox  
+code-server --install-extension DavidAnson.vscode-markdownlint  
+code-server --install-extension dbaeumer.vscode-eslint  
 code-server --install-extension dotiful.dotfiles-syntax-highlighting
 code-server --install-extension DotJoshJohnson.xml
 code-server --install-extension dsznajder.es7-react-js-snippets
@@ -24,13 +25,10 @@ code-server --install-extension foxundermoon.shell-format
 code-server --install-extension ginfuru.ginfuru-vscode-jekyll-syntax
 code-server --install-extension ginfuru.vscode-jekyll-snippets
 code-server --install-extension glen-84.sass-lint
-code-server --install-extension HexcodeTechnologies.vscode-prettydiff
 code-server --install-extension HookyQR.beautify
-code-server --install-extension justusadam.language-haskell
 code-server --install-extension keesschollaart.vscode-home-assistant
 code-server --install-extension ms-azuretools.vscode-docker
 code-server --install-extension ms-python.python
-code-server --install-extension ms-vscode-remote.remote-wsl
 code-server --install-extension ms-vscode.powershell
 code-server --install-extension ms-vsliveshare.vsliveshare
 code-server --install-extension octref.vetur
@@ -61,4 +59,4 @@ code-server --install-extension wingrunr21.vscode-ruby
 code-server --install-extension Wscats.eno
 code-server --install-extension yzhang.markdown-all-in-one
 code-server --install-extension ZainChen.json
-
+```

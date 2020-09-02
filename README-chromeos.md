@@ -29,4 +29,4 @@ code --install-extension wingrunr21.vscode-ruby
 code --install-extension yzhang.markdown-all-in-one  
 code --install-extension zainchen.json  
   
-Copy Settings from settings-chromeos.json  
+Copy Settings from [settings-chromeos.json](settings-chromeos.json)  

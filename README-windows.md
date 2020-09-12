@@ -51,5 +51,6 @@ code --install-extension wingrunr21.vscode-ruby
 code --install-extension Wscats.eno  
 code --install-extension xabikos.JavaScriptSnippets  
 code --install-extension yzhang.markdown-all-in-one  
+code --install-extension wakatime.vscode-wakatime  
     
 Copy Settings from settings-windows.json  

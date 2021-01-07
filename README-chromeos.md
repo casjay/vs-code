@@ -1,4 +1,4 @@
-# My vs code settings  
+# My vscode settings for chromebook  
 Download and install from https://code.visualstudio.com/download 
   
 # install extensions  

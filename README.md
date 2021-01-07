@@ -1,6 +1,6 @@
 ## VisualStudio 
-My Code settings for  
-Windows, Linux, MacOS, And Chromebooks
+My Code settings for Windows,  
+Linux, MacOS, And Chromebooks
   
 [Windows Readme](README-windows.md)  
   

@@ -98,6 +98,7 @@ code --install-extension "ZainChen.json" --force
 " 2>/dev/null
 ```
   
+## Settings
 ```json
   {
   "sync.gist": "",

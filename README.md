@@ -1,4 +1,5 @@
-## My VisualStudio Code settings for  
+##  
+My VisualStudio Code settings for  
 Windows, Linux, MacOS, And Chromebooks
   
 [Windows Readme](README-windows.md)  

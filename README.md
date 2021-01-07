@@ -1,12 +1,11 @@
-## My VisualStudio Code settings for  
-## Windows, Linux, MacOS, And Chromebooks
+## My VisualStudio Code settings for Windows, Linux, MacOS, And Chromebooks
   
-#### [Windows Readme](README-windows.md)  
+[Windows Readme](README-windows.md)  
   
-#### [MacOS Readme](README-macos.md)  
+[MacOS Readme](README-macos.md)  
   
-#### [Linux Readme](README-linux.md)  
+[Linux Readme](README-linux.md)  
   
-#### [ChromeOS Readme](README-chromeos.md)  
+[ChromeOS Readme](README-chromeos.md)  
   
-#### [Default KeyBindings](KeyBindings.md)  
+[Default KeyBindings](KeyBindings.md)  

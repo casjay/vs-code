@@ -1,73 +1,183 @@
-{
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.fontFamily": "Fira Code, Hack Nerd Font, Consolas, 'Courier New', monospace",
-  "terminal.integrated.fontFamily": "Hack",
-  "editor.fontLigatures": true,
-  "php.validate.executablePath": "/usr/bin/env php",
+  {
   "sync.gist": "",
-  "terminal.integrated.shell.windows": "/usr/bin/env bash",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "bracket-pair-colorizer-2.colorMode": "Independent",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontFamily": "Hack Nerd Font, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "git.enableSmartCommit": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "enableTelemetry": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.tabCompletion": "on",
-  "editor.wordWrapColumn": 130,
   "editor.quickSuggestionsDelay": 5,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
+  "editor.wordWrapColumn": 120,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "files.autoSave": "onFocusChange",
-  "search.showLineNumbers": true,
   "git.enableCommitSigning": true,
+  "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
   "html.format.endWithNewline": true,
+  "liveServer.settings.donotShowInfoMsg": true,
   "markdown.extension.tableFormatter.normalizeIndentation": true,
-  "markdown.extension.toc.githubCompatibility": true,
   "markdown.extension.toc.orderedList": true,
+  "php.validate.executablePath": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
+  "search.showLineNumbers": true,
+  "shellcheck.exclude": [1017],
   "shellcheck.run": "manual",
-  "eslint.enable": true,
-  "css.remoteStyleSheets": [
-    "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  "shellcheck.useWSL": false,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "bat",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "dockerfile",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "home-assistant",
+    "html",
+    "ini",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "jekyll",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "liquid",
+    "lua",
+    "makefile",
+    "markdown",
+    "perl",
+    "php",
+    "plaintext",
+    "powershell",
+    "pug",
+    "python",
+    "restructuredtext",
+    "ruby",
+    "rust",
+    "scala",
+    "scss",
+    "shellscript",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
   ],
-  "files.associations": {
-    "sxhkdrc": "properties"
+  "liquid.format": true,
+  "liquid.rules": {
+    "html": {},
+    "js": {},
+    "css": {},
+    "scss": {},
+    "json": {}
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.quickSuggestions": true,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true,
+    "source.fixAll.eslint": true
+  },
+  "cSpell.language": "en,en-US",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "[css]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.printWidth": 130,
-  "bracketPairColorizer.forceUniqueOpeningColor": true,
-  "bracketPairColorizer.highlightActiveScope": true,
-  "liquid.format": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.codeActionsOnSave.mode": "problems",
-  "html.format.indentHandlebars": true,
-  "html.format.indentInnerHtml": true,
-  "html.format.wrapLineLength": 130,
-  "html.mirrorCursorOnMatchingTag": true,
-  "html.format.wrapAttributes": "preserve",
-  "editor.formatOnPaste": true,
-  "javascript.format.semicolons": "insert",
-  "typescript.format.semicolons": "insert",
-  "eslint.format.enable": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownProperties": "ignore",
+  "liveSassCompile.settings.autoprefix": [],
+  "scss.validate": false,
+  "liveSassCompile.settings.generateMap": false,
+  "markdownlint.config": {
+    "MD012": false,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
+  },
+  "better-comments.highlightPlainText": true,
+  "cSpell.customUserDictionaries": [],
+  "enableTelemetry": true,
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "python.languageServer": "Microsoft",
+  "files.autoSave": "onWindowChange",
+  "terminal.integrated.env.windows": {},
+  "cSpell.userWords": [
+    "Centralish",
+    "Hellotxt",
+    "Miley",
+    "casjay",
+    "gitmasterconfig",
+    "prevrepo",
+    "printf"
+  ],
+  "markdown.extension.print.theme": "dark",
+  "markdown.extension.toc.omittedFromToc": {},
   "markdown.preview.breaks": true,
-  "[markdown]": {
-    "files.trimTrailingWhitespace": false
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "[xml]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "[home-assistant]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.autoIndent": "full"
+  },
+  "cSpell.enabled": false,
+  "[shellscript]": {
+    "files.eol": "\n"
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.renameOnType": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.defaultInterpreterPath": "python3",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

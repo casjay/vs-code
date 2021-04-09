@@ -47,6 +47,7 @@ code --install-extension "krizzdewizz.refactorix" --force
 code --install-extension "MariusAlchimavicius.json-to-ts" --force
 code --install-extension "mechatroner.rainbow-csv" --force
 code --install-extension "Mikael.Angular-BeastCode" --force
+code --install-extension "mikestead.dotenv" --force
 code --install-extension "mrmlnc.vscode-apache" --force
 code --install-extension "ms-azuretools.vscode-docker" --force
 code --install-extension "ms-python.python" --force
@@ -57,6 +58,7 @@ code --install-extension "ms-vscode.powershell" --force
 code --install-extension "ms-vscode.typescript-javascript-grammar" --force
 code --install-extension "ms-vscode.vscode-typescript-tslint-plugin" --force
 code --install-extension "ms-vsliveshare.vsliveshare" --force
+code --install-extension "mubaidr.vuejs-extension-pack" --force
 code --install-extension "nepaul.editorconfiggenerator" --force
 code --install-extension "nhoizey.gremlins" --force
 code --install-extension "octref.vetur" --force

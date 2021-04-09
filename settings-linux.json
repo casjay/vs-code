@@ -1,8 +1,8 @@
 {
   "bracket-pair-colorizer-2.colorMode": "Independent",
   "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-  "bracket-pair-colorizer-2.highlightActiveScope",
-  "bracket-pair-colorizer-2.showBracketsInGutter",
+  "bracket-pair-colorizer-2.highlightActiveScope": true",
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Fira Code, Hack Nerd Font, Consolas, 'Courier New', monospace",
@@ -144,15 +144,7 @@
   "python.languageServer": "Microsoft",
   "files.autoSave": "onWindowChange",
   "terminal.integrated.env.windows": {},
-  "cSpell.userWords": [
-    "Centralish",
-    "Hellotxt",
-    "Miley",
-    "casjay",
-    "gitmasterconfig",
-    "prevrepo",
-    "printf"
-  ],
+  "cSpell.userWords": [],
   "markdown.extension.print.theme": "dark",
   "markdown.extension.toc.omittedFromToc": {},
   "markdown.preview.breaks": true,

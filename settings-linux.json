@@ -1,7 +1,7 @@
 {
   "bracket-pair-colorizer-2.colorMode": "Independent",
   "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-  "bracket-pair-colorizer-2.highlightActiveScope": true",
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
   "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
   "editor.cursorSmoothCaretAnimation": true,
@@ -32,7 +32,7 @@
   "python.pythonPath": "python3",
   "search.showLineNumbers": true,
   "shellcheck.exclude": [1017],
-  "shellcheck.run": "manual",
+  "shellcheck.run": "yes",
   "shellcheck.useWSL": false,
   "shellcheck.enableQuickFix": true,
   "shellcheck.run": "onType" // also: "onSave"

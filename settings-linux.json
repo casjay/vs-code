@@ -31,11 +31,10 @@
   "powershell.codeFormatting.autoCorrectAliases": true,
   "python.pythonPath": "python3",
   "search.showLineNumbers": true,
-  "shellcheck.exclude": [1017],
-  "shellcheck.run": "yes",
+  "shellcheck.exclude": ["1017"],
   "shellcheck.useWSL": false,
   "shellcheck.enableQuickFix": true,
-  "shellcheck.run": "onType" // also: "onSave"
+  "shellcheck.run": "onType",
   "sync.gist": "0f5d849deb1ea201b6e6e4493a337117",
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -152,5 +151,20 @@
   "eslint.format.enable": true,
   "[xml]": {
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "shellformat.useEditorConfig": true,
+  "shellcheck.ignorePatterns": {
+    "**/*.zsh": true,
+    "**/*.zshrc": true,
+    "**/zshrc": true,
+    "**/*.zprofile": true,
+    "**/zprofile": true,
+    "**/*.zlogin": true,
+    "**/zlogin": true,
+    "**/*.zlogout": true,
+    "**/zlogout": true,
+    "**/*.zshenv": true,
+    "**/zshenv": true,
+    "**/*.zsh-theme": true
   }
 }

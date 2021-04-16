@@ -1,13 +1,13 @@
 # My Visual Studio [Code](https://code.visualstudio.com/#alt-downloads) settings for Windows  
   
 # install extensions  
-  
+```shell  
 code --install-extension aaron-bond.better-comments  
 code --install-extension ahmadawais.shades-of-purple  
 code --install-extension christian-kohler.npm-intellisense  
 code --install-extension christian-kohler.path-intellisense  
 code --install-extension Cjay.ruby-and-rails-snippets  
-code --install-extension CoenraadS.bracket-pair-colorizer  
+code --install-extension CoenraadS.bracket-pair-colorizer-2  
 code --install-extension d9705996.perl-toolbox  
 code --install-extension DavidAnson.vscode-markdownlint  
 code --install-extension dbaeumer.vscode-eslint  
@@ -52,5 +52,5 @@ code --install-extension Wscats.eno
 code --install-extension xabikos.JavaScriptSnippets  
 code --install-extension yzhang.markdown-all-in-one  
 code --install-extension wakatime.vscode-wakatime  
-    
+```    
 Copy Settings from settings-windows.json  

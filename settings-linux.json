@@ -1,23 +1,22 @@
 {
+  "sync.gist": "0f5d849deb1ea201b6e6e4493a337117",
   "bracket-pair-colorizer-2.colorMode": "Independent",
-  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-  "bracket-pair-colorizer-2.highlightActiveScope": true,
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Fira Code, Hack Nerd Font, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Hack Nerd Font, Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 15,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "editor.quickSuggestionsDelay": 1,
+  "editor.quickSuggestionsDelay": 5,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.wordWrapColumn": 140,
+  "editor.wordWrapColumn": 120,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "git.enableCommitSigning": true,
@@ -29,13 +28,9 @@
   "markdown.extension.toc.orderedList": true,
   "php.validate.executablePath": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
-  "python.pythonPath": "python3",
   "search.showLineNumbers": true,
-  "shellcheck.exclude": ["1017"],
-  "shellcheck.useWSL": false,
-  "shellcheck.enableQuickFix": true,
-  "shellcheck.run": "onType",
-  "sync.gist": "0f5d849deb1ea201b6e6e4493a337117",
+  "shellcheck.exclude": ["1017", "SC2154", "SC2086", "2045", "2089"],
+  "shellcheck.run": "manual",
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.highlightModifiedTabs": true,
@@ -139,11 +134,18 @@
   "better-comments.highlightPlainText": true,
   "cSpell.customUserDictionaries": [],
   "enableTelemetry": true,
-  "terminal.integrated.shell.linux": "/bin/bash",
   "python.languageServer": "Microsoft",
   "files.autoSave": "onWindowChange",
   "terminal.integrated.env.windows": {},
-  "cSpell.userWords": [],
+  "cSpell.userWords": [
+    "Centralish",
+    "Hellotxt",
+    "Miley",
+    "casjay",
+    "gitmasterconfig",
+    "prevrepo",
+    "printf"
+  ],
   "markdown.extension.print.theme": "dark",
   "markdown.extension.toc.omittedFromToc": {},
   "markdown.preview.breaks": true,
@@ -152,19 +154,36 @@
   "[xml]": {
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
-  "shellformat.useEditorConfig": true,
-  "shellcheck.ignorePatterns": {
-    "**/*.zsh": true,
-    "**/*.zshrc": true,
-    "**/zshrc": true,
-    "**/*.zprofile": true,
-    "**/zprofile": true,
-    "**/*.zlogin": true,
-    "**/zlogin": true,
-    "**/*.zlogout": true,
-    "**/zlogout": true,
-    "**/*.zshenv": true,
-    "**/zshenv": true,
-    "**/*.zsh-theme": true
-  }
+  "[home-assistant]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.autoIndent": "full"
+  },
+  "cSpell.enabled": false,
+  "[shellscript]": {
+    "files.eol": "\n"
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.linkedEditing": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.defaultInterpreterPath": "python3",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.inc": "plaintext"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "jupyter.experiments.optOutFrom": []
 }

@@ -101,7 +101,7 @@ code --install-extension "ZainChen.json" --force
 ## Settings
 ```json
   {
-  "sync.gist": "",
+  "sync.gist": "3ef2c13d3ff75fa4f7fe565c46781837",
   "bracket-pair-colorizer-2.colorMode": "Independent",
   "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
   "bracket-pair-colorizer-2.showBracketsInGutter": true,

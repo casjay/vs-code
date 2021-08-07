@@ -73,7 +73,6 @@ code --install-extension "timonwong.shellcheck" --force
 code --install-extension "sissel.shopify-liquid" --force  
 code --install-extension "vscode-snippet.snippet" --force  
 code --install-extension "TzachOvadia.todo-list" --force  
-code --install-extension "ms-vscode.typescript-javascript-grammar" --force  
 code --install-extension "octref.vetur" --force  
 code --install-extension "dunstontc.viml" --force  
 code --install-extension "mrmlnc.vscode-apache" --force  

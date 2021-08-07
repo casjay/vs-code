@@ -10,7 +10,7 @@ code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --instal
 # install extensions  
   
 ```shell
-echo "
+echo '
 code --install-extension "aaron-bond.better-comments" --force  
 code --install-extension "ahmadawais.shades-of-purple" --force  
 code --install-extension "Angular.ng-template" --force  
@@ -112,4 +112,4 @@ code --install-extension "xabikos.JavaScriptSnippets" --force
 code --install-extension "yinfei.luahelper" --force  
 code --install-extension "yzhang.markdown-all-in-one" --force  
 code --install-extension "ZainChen.json" --force  
-"
+'

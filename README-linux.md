@@ -1,4 +1,4 @@
-## created using:
+## Created using:
 
 ```shell
 code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force  |g'

@@ -1,6 +1,12 @@
 # My vscode settings for chromebook  
 Download and install from https://code.visualstudio.com/download 
   
+## Created using:
+
+```shell
+code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force  |g'
+``` 
+  
 # install extensions  
   
 ```text

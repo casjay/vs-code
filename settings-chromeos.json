@@ -1,23 +1,23 @@
 {
+  "sync.gist": "0f5d849deb1ea201b6e6e4493a337117",
   "bracket-pair-colorizer-2.colorMode": "Independent",
-  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-  "bracket-pair-colorizer-2.highlightActiveScope": true,
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Fira Code, Hack Nerd Font, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'Consolas', 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 18,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "editor.quickSuggestionsDelay": 1,
+  "editor.quickSuggestionsDelay": 5,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.wordWrapColumn": 140,
+  "editor.wordWrapColumn": 180,
+  "editor.linkedEditing": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "git.enableCommitSigning": true,
@@ -29,19 +29,65 @@
   "markdown.extension.toc.orderedList": true,
   "php.validate.executablePath": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
-  "python.pythonPath": "python3",
   "search.showLineNumbers": true,
-  "shellcheck.exclude": ["1017"],
-  "shellcheck.useWSL": false,
+  "shellcheck.enable": true,
   "shellcheck.enableQuickFix": true,
-  "shellcheck.run": "onType",
-  "sync.gist": "0f5d849deb1ea201b6e6e4493a337117",
-  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "shellcheck.run": "manual",
+  "shellcheck.executablePath": "",
+  "shellcheck.ignoreFileSchemes": ["git", "gitfs"],
+  "shellcheck.exclude": [
+    "1090",
+    "1091",
+    "1017",
+    "1117",
+    "2034",
+    "2015",
+    "2009",
+    "2004",
+    "2046",
+    "2005",
+    "2116",
+    "2154",
+    "2086",
+    "2045",
+    "2089",
+    "2062",
+    "1091",
+    "2181",
+    "2207"
+  ],
+  "terminal.integrated.fontFamily": "monospace",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.advanced": {},
+  "github.copilot.autocomplete.enable": true,
+  "window.zoomLevel": -1,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "workbench.editor.untitled.hint": "hidden",
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.enabledLanguageIds": [
@@ -111,12 +157,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "liveSassCompile.settings.formats": [
     {
       "format": "compressed",
@@ -139,32 +179,39 @@
   "better-comments.highlightPlainText": true,
   "cSpell.customUserDictionaries": [],
   "enableTelemetry": true,
-  "terminal.integrated.shell.linux": "/bin/bash",
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Default",
   "files.autoSave": "onWindowChange",
   "terminal.integrated.env.windows": {},
-  "cSpell.userWords": [],
+  "cSpell.userWords": [
+    "Centralish",
+    "Hellotxt",
+    "Miley",
+    "casjay",
+    "gitmasterconfig",
+    "prevrepo",
+    "printf"
+  ],
   "markdown.extension.print.theme": "dark",
   "markdown.extension.toc.omittedFromToc": {},
   "markdown.preview.breaks": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  "[xml]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  "[home-assistant]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.autoIndent": "full"
   },
-  "shellformat.useEditorConfig": true,
-  "shellcheck.ignorePatterns": {
-    "**/*.zsh": true,
-    "**/*.zshrc": true,
-    "**/zshrc": true,
-    "**/*.zprofile": true,
-    "**/zprofile": true,
-    "**/*.zlogin": true,
-    "**/zlogin": true,
-    "**/*.zlogout": true,
-    "**/zlogout": true,
-    "**/*.zshenv": true,
-    "**/zshenv": true,
-    "**/*.zsh-theme": true
+  "cSpell.enabled": false,
+  "[shellscript]": {
+    "files.eol": "\n"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.fish": "fish"
   }
 }

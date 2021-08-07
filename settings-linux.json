@@ -4,9 +4,9 @@
   "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
   "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Hack Nerd Font, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'Consolas', 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 18,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
@@ -16,7 +16,8 @@
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.wordWrapColumn": 120,
+  "editor.wordWrapColumn": 180,
+  "editor.linkedEditing": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "git.enableCommitSigning": true,
@@ -29,14 +30,64 @@
   "php.validate.executablePath": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
   "search.showLineNumbers": true,
-  "shellcheck.exclude": ["1017", "SC2154", "SC2086", "2045", "2089"],
+  "shellcheck.enable": true,
+  "shellcheck.enableQuickFix": true,
   "shellcheck.run": "manual",
+  "shellcheck.executablePath": "",
+  "shellcheck.ignoreFileSchemes": ["git", "gitfs"],
+  "shellcheck.exclude": [
+    "1090",
+    "1091",
+    "1017",
+    "1117",
+    "2034",
+    "2015",
+    "2009",
+    "2004",
+    "2046",
+    "2005",
+    "2116",
+    "2154",
+    "2086",
+    "2045",
+    "2089",
+    "2062",
+    "1091",
+    "2181",
+    "2207"
+  ],
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.advanced": {},
+  "github.copilot.autocomplete.enable": true,
+  "window.zoomLevel": -1,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "workbench.editor.untitled.hint": "hidden",
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.enabledLanguageIds": [
@@ -106,12 +157,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "liveSassCompile.settings.formats": [
     {
       "format": "compressed",
@@ -134,7 +179,7 @@
   "better-comments.highlightPlainText": true,
   "cSpell.customUserDictionaries": [],
   "enableTelemetry": true,
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Default",
   "files.autoSave": "onWindowChange",
   "terminal.integrated.env.windows": {},
   "cSpell.userWords": [
@@ -149,11 +194,6 @@
   "markdown.extension.print.theme": "dark",
   "markdown.extension.toc.omittedFromToc": {},
   "markdown.preview.breaks": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  "[xml]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  },
   "[home-assistant]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
@@ -168,22 +208,10 @@
   "[shellscript]": {
     "files.eol": "\n"
   },
-  "workbench.editor.enablePreview": false,
-  "editor.linkedEditing": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "python.defaultInterpreterPath": "python3",
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[properties]": {
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
-    "*.inc": "plaintext"
-  },
-  "editor.inlineSuggest.enabled": true,
-  "jupyter.experiments.optOutFrom": []
+    "*.fish": "fish"
+  }
 }

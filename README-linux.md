@@ -100,3 +100,7 @@ code --install-extension "Compilenix.vscode-zonefile" --force
 code --install-extension "VisualStudioExptTeam.vscodeintellicode" --force  
 code --install-extension "DotJoshJohnson.xml" --force  
 ```
+  
+[My linux settings file](https://github.com/casjay/vs-code/blob/main/settings-linux.json)  
+  
+  

@@ -11,12 +11,11 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestionsDelay": 5,
-  "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.wordWrapColumn": 180,
+  "editor.wordWrapColumn": 200,
   "editor.linkedEditing": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -30,6 +29,7 @@
   "php.validate.executablePath": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
   "search.showLineNumbers": true,
+  "editor.quickSuggestions.comments": true,
   "shellcheck.enable": true,
   "shellcheck.enableQuickFix": true,
   "shellcheck.run": "manual",
@@ -90,6 +90,12 @@
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[zone]": {
+    "editor.formatOnSave": false
+  },
+  "[plaintext]": {
+    "editor.formatOnSave": false
   },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -207,12 +213,30 @@
   },
   "cSpell.enabled": false,
   "[shellscript]": {
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
     "*.fish": "fish"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[perl]": {
+    "editor.defaultFormatter": "zhiyuan-lin.simple-perl"
+  },
+  "gremlins.characters": {
+    "000c": {
+      "zeroWidth": true,
+      "description": "FORM FEED (FF)",
+      "overviewRulerColor": "rgba(255,127,80,1)"
+    }
   }
 }

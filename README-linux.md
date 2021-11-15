@@ -10,6 +10,7 @@ code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --instal
 # install extensions  
   
 ```shell
+
 code --install-extension "aaron-bond.better-comments" --force  
 code --install-extension "bajdzis.vscode-database" --force  
 code --install-extension "bengreenier.vscode-node-readme" --force  
@@ -34,6 +35,7 @@ code --install-extension "eg2.vscode-npm-script" --force
 code --install-extension "eiminsasete.apacheconf-snippets" --force  
 code --install-extension "eliostruyf.vscode-front-matter" --force  
 code --install-extension "esbenp.prettier-vscode" --force  
+code --install-extension "file-icons.file-icons" --force  
 code --install-extension "formulahendry.auto-rename-tag" --force  
 code --install-extension "foxundermoon.shell-format" --force  
 code --install-extension "ginfuru.vscode-jekyll-snippets" --force  
@@ -90,7 +92,8 @@ code --install-extension "xabikos.JavaScriptSnippets" --force
 code --install-extension "yinfei.luahelper" --force  
 code --install-extension "yzhang.markdown-all-in-one" --force  
 code --install-extension "ZainChen.json" --force  
-code --install-extension "zhiyuan-lin.simple-perl" --force    
+code --install-extension "zhiyuan-lin.simple-perl" --force  
+
 ```
   
 [My linux settings file](https://github.com/casjay/vs-code/blob/main/settings-linux.json)  

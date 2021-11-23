@@ -19,6 +19,8 @@
   "editor.linkedEditing": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "update.showReleaseNotes": false,
   "git.enableCommitSigning": true,
   "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
@@ -29,10 +31,10 @@
   "php.validate.executablePath": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
   "search.showLineNumbers": true,
-  "editor.quickSuggestions.comments": true,
+  "bashBeautify.tabSize": 2,
   "shellcheck.enable": true,
   "shellcheck.enableQuickFix": true,
-  "shellcheck.run": "manual",
+  "shellcheck.run": "onType",
   "shellcheck.executablePath": "",
   "shellcheck.ignoreFileSchemes": ["git", "gitfs"],
   "shellcheck.exclude": [
@@ -53,8 +55,10 @@
     "2089",
     "2062",
     "1091",
+    "2002",
     "2181",
-    "2207"
+    "2207",
+    "2148"
   ],
   "terminal.integrated.fontFamily": "monospace",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -70,12 +74,11 @@
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "workbench.editor.untitled.hint": "hidden",
-  "prettier.singleQuote": true,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[xml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -182,13 +185,34 @@
     "MD033": false,
     "MD041": false
   },
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatter.sass": "sass-formatter",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
   "better-comments.highlightPlainText": true,
-  "cSpell.customUserDictionaries": [],
-  "enableTelemetry": true,
+  "cSpell.customDictionaries": [],
   "python.languageServer": "Default",
   "files.autoSave": "onWindowChange",
   "terminal.integrated.env.windows": {},
   "cSpell.userWords": [],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": true,
   "markdown.extension.print.theme": "dark",
   "markdown.extension.toc.omittedFromToc": {},
   "markdown.preview.breaks": true,
@@ -211,7 +235,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
-    "*.fish": "fish"
+    "*.fish": "fish",
+    "sxhkdrc": "plaintext"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
@@ -230,5 +255,6 @@
       "overviewRulerColor": "rgba(255,127,80,1)"
     }
   },
-  "workbench.iconTheme": "file-icons"
+  "workbench.iconTheme": "file-icons",
+  "cmake.configureOnOpen": false
 }

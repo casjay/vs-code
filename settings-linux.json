@@ -17,6 +17,7 @@
   "editor.tabSize": 2,
   "editor.wordWrapColumn": 200,
   "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "editor.definitionLinkOpensInPeek": true,
@@ -69,11 +70,11 @@
   "redhat.telemetry.enabled": true,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.advanced": {},
-  "github.copilot.autocomplete.enable": true,
   "window.zoomLevel": -1,
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "workbench.editor.untitled.hint": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -88,7 +89,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -185,21 +186,11 @@
     "MD033": false,
     "MD041": false
   },
-  "vetur.format.defaultFormatter.html": "prettyhtml",
-  "vetur.format.defaultFormatter.css": "prettier",
-  "vetur.format.defaultFormatter.postcss": "prettier",
-  "vetur.format.defaultFormatter.scss": "prettier",
-  "vetur.format.defaultFormatter.less": "prettier",
-  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
-  "vetur.format.defaultFormatter.js": "prettier",
-  "vetur.format.defaultFormatter.ts": "prettier",
-  "vetur.format.defaultFormatter.sass": "sass-formatter",
-  "typescript.preferences.quoteStyle": "single",
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
   "better-comments.highlightPlainText": true,
-  "cSpell.customDictionaries": [],
   "python.languageServer": "Default",
   "files.autoSave": "onWindowChange",
   "terminal.integrated.env.windows": {},
@@ -256,5 +247,19 @@
     }
   },
   "workbench.iconTheme": "file-icons",
-  "cmake.configureOnOpen": false
+  "cmake.configureOnOpen": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": null
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false
 }

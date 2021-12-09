@@ -70,7 +70,6 @@
   "redhat.telemetry.enabled": true,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.advanced": {},
-  "window.zoomLevel": -1,
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "workbench.editor.untitled.hint": "hidden",
@@ -261,5 +260,6 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "security.workspace.trust.untrustedFiles": "open",
-  "security.workspace.trust.enabled": false
+  "security.workspace.trust.enabled": false,
+  "window.zoomLevel": -1
 }

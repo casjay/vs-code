@@ -1,8 +1,7 @@
 {
   "sync.gist": "0f5d849deb1ea201b6e6e4493a337117",
-  "bracket-pair-colorizer-2.colorMode": "Independent",
-  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'Consolas', 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -30,6 +29,7 @@
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.orderedList": true,
   "php.validate.executablePath": "php",
+  "phpfmt.php_bin": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
   "search.showLineNumbers": true,
   "bashBeautify.tabSize": 2,
@@ -37,7 +37,10 @@
   "shellcheck.enableQuickFix": true,
   "shellcheck.run": "onType",
   "shellcheck.executablePath": "",
-  "shellcheck.ignoreFileSchemes": ["git", "gitfs"],
+  "shellcheck.ignoreFileSchemes": [
+    "git",
+    "gitfs"
+  ],
   "shellcheck.exclude": [
     "1090",
     "1091",
@@ -59,7 +62,8 @@
     "2002",
     "2181",
     "2207",
-    "2148"
+    "2148",
+    "2294"
   ],
   "terminal.integrated.fontFamily": "monospace",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -69,7 +73,9 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "redhat.telemetry.enabled": true,
   "editor.inlineSuggest.enabled": true,
-  "github.copilot.advanced": {},
+  "github.copilot.advanced": {
+    
+  },
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "workbench.editor.untitled.hint": "hidden",
@@ -147,11 +153,21 @@
   ],
   "liquid.format": true,
   "liquid.rules": {
-    "html": {},
-    "js": {},
-    "css": {},
-    "scss": {},
-    "json": {}
+    "html": {
+      
+    },
+    "js": {
+      
+    },
+    "css": {
+      
+    },
+    "scss": {
+      
+    },
+    "json": {
+      
+    }
   },
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
@@ -173,10 +189,15 @@
       "savePath": "/assets/css"
     }
   ],
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
   "scss.lint.unknownAtRules": "ignore",
   "scss.lint.unknownProperties": "ignore",
-  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.autoprefix": [
+    
+  ],
   "scss.validate": false,
   "liveSassCompile.settings.generateMap": false,
   "markdownlint.config": {
@@ -192,8 +213,12 @@
   "better-comments.highlightPlainText": true,
   "python.languageServer": "Default",
   "files.autoSave": "onWindowChange",
-  "terminal.integrated.env.windows": {},
-  "cSpell.userWords": [],
+  "terminal.integrated.env.windows": {
+    
+  },
+  "cSpell.userWords": [
+    
+  ],
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
@@ -204,7 +229,9 @@
   "editor.wordBasedSuggestions": true,
   "editor.parameterHints.enabled": true,
   "markdown.extension.print.theme": "dark",
-  "markdown.extension.toc.omittedFromToc": {},
+  "markdown.extension.toc.omittedFromToc": {
+    
+  },
   "markdown.preview.breaks": true,
   "[home-assistant]": {
     "editor.insertSpaces": true,
@@ -261,5 +288,12 @@
   },
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
 }

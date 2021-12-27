@@ -1,8 +1,7 @@
 {
-  "sync.gist": "0f5d849deb1ea201b6e6e4493a337117",
-  "bracket-pair-colorizer-2.colorMode": "Independent",
-  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "sync.gist": "3ef2c13d3ff75fa4f7fe565c46781837",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'Consolas', 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -11,15 +10,17 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestionsDelay": 5,
-  "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.wordWrapColumn": 180,
+  "editor.wordWrapColumn": 200,
   "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "update.showReleaseNotes": false,
   "git.enableCommitSigning": true,
   "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
@@ -28,13 +29,18 @@
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.orderedList": true,
   "php.validate.executablePath": "php",
+  "phpfmt.php_bin": "php",
   "powershell.codeFormatting.autoCorrectAliases": true,
   "search.showLineNumbers": true,
+  "bashBeautify.tabSize": 2,
   "shellcheck.enable": true,
   "shellcheck.enableQuickFix": true,
-  "shellcheck.run": "manual",
+  "shellcheck.run": "onType",
   "shellcheck.executablePath": "",
-  "shellcheck.ignoreFileSchemes": ["git", "gitfs"],
+  "shellcheck.ignoreFileSchemes": [
+    "git",
+    "gitfs"
+  ],
   "shellcheck.exclude": [
     "1090",
     "1091",
@@ -53,29 +59,32 @@
     "2089",
     "2062",
     "1091",
+    "2002",
     "2181",
-    "2207"
+    "2207",
+    "2148",
+    "2294"
   ],
   "terminal.integrated.fontFamily": "monospace",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "redhat.telemetry.enabled": true,
   "editor.inlineSuggest.enabled": true,
-  "github.copilot.advanced": {},
-  "github.copilot.autocomplete.enable": true,
-  "window.zoomLevel": -1,
+  "github.copilot.advanced": {
+    
+  },
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "workbench.editor.untitled.hint": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[xml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -85,10 +94,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[zone]": {
+    "editor.formatOnSave": false
+  },
+  "[plaintext]": {
+    "editor.formatOnSave": false
   },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -138,11 +153,21 @@
   ],
   "liquid.format": true,
   "liquid.rules": {
-    "html": {},
-    "js": {},
-    "css": {},
-    "scss": {},
-    "json": {}
+    "html": {
+      
+    },
+    "js": {
+      
+    },
+    "css": {
+      
+    },
+    "scss": {
+      
+    },
+    "json": {
+      
+    }
   },
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
@@ -164,10 +189,15 @@
       "savePath": "/assets/css"
     }
   ],
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
   "scss.lint.unknownAtRules": "ignore",
   "scss.lint.unknownProperties": "ignore",
-  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.autoprefix": [
+    
+  ],
   "scss.validate": false,
   "liveSassCompile.settings.generateMap": false,
   "markdownlint.config": {
@@ -176,23 +206,32 @@
     "MD033": false,
     "MD041": false
   },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
   "better-comments.highlightPlainText": true,
-  "cSpell.customUserDictionaries": [],
-  "enableTelemetry": true,
   "python.languageServer": "Default",
   "files.autoSave": "onWindowChange",
-  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.windows": {
+    
+  },
   "cSpell.userWords": [
-    "Centralish",
-    "Hellotxt",
-    "Miley",
-    "casjay",
-    "gitmasterconfig",
-    "prevrepo",
-    "printf"
+    
   ],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": true,
   "markdown.extension.print.theme": "dark",
-  "markdown.extension.toc.omittedFromToc": {},
+  "markdown.extension.toc.omittedFromToc": {
+    
+  },
   "markdown.preview.breaks": true,
   "[home-assistant]": {
     "editor.insertSpaces": true,
@@ -206,12 +245,55 @@
   },
   "cSpell.enabled": false,
   "[shellscript]": {
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
-    "*.fish": "fish"
+    "*.fish": "fish",
+    "sxhkdrc": "plaintext"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[perl]": {
+    "editor.defaultFormatter": "zhiyuan-lin.simple-perl"
+  },
+  "gremlins.characters": {
+    "000c": {
+      "zeroWidth": true,
+      "description": "FORM FEED (FF)",
+      "overviewRulerColor": "rgba(255,127,80,1)"
+    }
+  },
+  "workbench.iconTheme": "file-icons",
+  "cmake.configureOnOpen": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": null
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+  "window.zoomLevel": -1,
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
   }
 }

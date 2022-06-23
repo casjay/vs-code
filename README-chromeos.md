@@ -16,7 +16,6 @@ code --install-extension bengreenier.vscode-node-readme
 code --install-extension bmalehorn.vscode-fish
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension Cjay.ruby-and-rails-snippets
-code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension d9705996.perl-toolbox
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint

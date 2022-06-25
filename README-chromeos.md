@@ -33,6 +33,7 @@ code --install-extension "formulahendry.auto-rename-tag" --force
 code --install-extension "foxundermoon.shell-format" --force  
 code --install-extension "ginfuru.ginfuru-vscode-jekyll-syntax" --force  
 code --install-extension "ginfuru.vscode-jekyll-snippets" --force  
+code --install-extension "glenn2223.live-sass" --force  
 code --install-extension "hangxingliu.vscode-nginx-conf-hint" --force  
 code --install-extension "HexcodeTechnologies.vscode-prettydiff" --force  
 code --install-extension "HookyQR.beautify" --force  
@@ -52,8 +53,8 @@ code --install-extension "octref.vetur" --force
 code --install-extension "oderwat.indent-rainbow" --force  
 code --install-extension "piotrpalarz.vscode-gitignore-generator" --force  
 code --install-extension "quicktype.quicktype" --force  
+code --install-extension "rebornix.ruby" --force  
 code --install-extension "redhat.vscode-yaml" --force  
-code --install-extension "ritwickdey.live-sass" --force  
 code --install-extension "ritwickdey.LiveServer" --force  
 code --install-extension "rohgarg.jekyll-post" --force  
 code --install-extension "rpinski.shebang-snippets" --force  
@@ -78,197 +79,6 @@ code --install-extension "ZainChen.json" --force
 " 2>/dev/null
 ```
   
-## Settings
-```json
-{
-  "sync.gist": "3ef2c13d3ff75fa4f7fe565c46781837",
-  "bracket-pair-colorizer-2.colorMode": "Independent",
-  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Fira Code, Hack Nerd Font, Consolas, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "editor.quickSuggestionsDelay": 5,
-  "editor.renderIndentGuides": true,
-  "editor.renderWhitespace": "boundary",
-  "editor.suggestSelection": "first",
-  "editor.tabCompletion": "on",
-  "editor.tabSize": 2,
-  "editor.wordWrapColumn": 180,
-  "editor.linkedEditing": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "git.enableCommitSigning": true,
-  "git.enableSmartCommit": true,
-  "git.showPushSuccessNotification": true,
-  "html.format.endWithNewline": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "markdown.extension.tableFormatter.normalizeIndentation": true,
-  "markdown.extension.toc.orderedList": true,
-  "php.validate.executablePath": "php",
-  "powershell.codeFormatting.autoCorrectAliases": true,
-  "search.showLineNumbers": true,
-  "shellcheck.exclude": ["1017"],
-  "shellcheck.run": "manual",
-  "terminal.integrated.fontFamily": "Hack Nerd Font",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.editor.enablePreview": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "python.defaultInterpreterPath": "python3",
-  "redhat.telemetry.enabled": true,
-  "editor.inlineSuggest.enabled": true,
-  "github.copilot.advanced": {},
-  "github.copilot.autocomplete.enable": true,
-  "window.zoomLevel": -1,
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  "workbench.editor.untitled.hint": "hidden",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "cSpell.enabledLanguageIds": [
-    "asciidoc",
-    "bat",
-    "c",
-    "cpp",
-    "csharp",
-    "css",
-    "dockerfile",
-    "git-commit",
-    "go",
-    "handlebars",
-    "haskell",
-    "home-assistant",
-    "html",
-    "ini",
-    "jade",
-    "java",
-    "javascript",
-    "javascriptreact",
-    "jekyll",
-    "json",
-    "jsonc",
-    "latex",
-    "less",
-    "liquid",
-    "lua",
-    "makefile",
-    "markdown",
-    "perl",
-    "php",
-    "plaintext",
-    "powershell",
-    "pug",
-    "python",
-    "restructuredtext",
-    "ruby",
-    "rust",
-    "scala",
-    "scss",
-    "shellscript",
-    "text",
-    "typescript",
-    "typescriptreact",
-    "yaml",
-    "yml"
-  ],
-  "liquid.format": true,
-  "liquid.rules": {
-    "html": {},
-    "js": {},
-    "css": {},
-    "scss": {},
-    "json": {}
-  },
-  "[markdown]": {
-    "files.trimTrailingWhitespace": false,
-    "editor.quickSuggestions": true,
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.markdownlint": true,
-    "source.fixAll.eslint": true
-  },
-  "cSpell.language": "en,en-US",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".css",
-      "savePath": "/assets/css"
-    }
-  ],
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-  "scss.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownProperties": "ignore",
-  "liveSassCompile.settings.autoprefix": [],
-  "scss.validate": false,
-  "liveSassCompile.settings.generateMap": false,
-  "markdownlint.config": {
-    "MD012": false,
-    "MD013": false,
-    "MD033": false,
-    "MD041": false
-  },
-  "better-comments.highlightPlainText": true,
-  "cSpell.customUserDictionaries": [],
-  "enableTelemetry": true,
-  "python.languageServer": "Microsoft",
-  "files.autoSave": "onWindowChange",
-  "terminal.integrated.env.windows": {},
-  "cSpell.userWords": [
-    "Centralish",
-    "Hellotxt",
-    "Miley",
-    "casjay",
-    "gitmasterconfig",
-    "prevrepo",
-    "printf"
-  ],
-  "markdown.extension.print.theme": "dark",
-  "markdown.extension.toc.omittedFromToc": {},
-  "markdown.preview.breaks": true,
-  "[home-assistant]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
-    },
-    "editor.autoIndent": "full"
-  },
-  "cSpell.enabled": false,
-  "[shellscript]": {
-    "files.eol": "\n"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-}
-```
+[My linux settings file](https://github.com/casjay/vs-code/blob/main/settings-chromeos.json)  
+  
+  

@@ -6,28 +6,33 @@ Download and install from https://code.visualstudio.com/download
 ```shell
 code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force  |g'
 ``` 
-  
+
+# Initialize
+```shell
+code --install-extension "Shan.code-settings-sync" --force
+```
+
 # install extensions  
   
 ```text
 bash -c "
-code --install-extension "aaron-bond.better-comments" --force  
-code --install-extension "bengreenier.vscode-node-readme" --force  
-code --install-extension "bmalehorn.vscode-fish" --force  
-code --install-extension "christian-kohler.npm-intellisense" --force  
-code --install-extension "Cjay.ruby-and-rails-snippets" --force  
-code --install-extension "d9705996.perl-toolbox" --force  
-code --install-extension "DavidAnson.vscode-markdownlint" --force  
-code --install-extension "dbaeumer.vscode-eslint" --force  
-code --install-extension "dnicolson.binary-plist" --force  
-code --install-extension "dotiful.dotfiles-syntax-highlighting" --force  
-code --install-extension "DotJoshJohnson.xml" --force  
-code --install-extension "dsznajder.es7-react-js-snippets" --force  
-code --install-extension "duniul.dircolors" --force  
-code --install-extension "dunstontc.viml" --force  
-code --install-extension "eamodio.gitlens" --force  
-code --install-extension "eiminsasete.apacheconf-snippets" --force  
-code --install-extension "eliostruyf.vscode-front-matter" --force  
+code --install-extension "aaron-bond.better-comments" --force
+code --install-extension "bengreenier.vscode-node-readme" --force
+code --install-extension "bmalehorn.vscode-fish" --force
+code --install-extension "christian-kohler.npm-intellisense" --force
+code --install-extension "Cjay.ruby-and-rails-snippets" --force
+code --install-extension "d9705996.perl-toolbox" --force
+code --install-extension "DavidAnson.vscode-markdownlint" --force
+code --install-extension "dbaeumer.vscode-eslint" --force
+code --install-extension "dnicolson.binary-plist" --force
+code --install-extension "dotiful.dotfiles-syntax-highlighting" --force
+code --install-extension "DotJoshJohnson.xml" --force
+code --install-extension "dsznajder.es7-react-js-snippets" --force
+code --install-extension "duniul.dircolors" --force
+code --install-extension "dunstontc.viml" --force
+code --install-extension "eamodio.gitlens" --force
+code --install-extension "eiminsasete.apacheconf-snippets" --force
+code --install-extension "eliostruyf.vscode-front-matter" --force
 code --install-extension "esbenp.prettier-vscode" --force  
 code --install-extension "formulahendry.auto-rename-tag" --force  
 code --install-extension "foxundermoon.shell-format" --force  
@@ -58,7 +63,6 @@ code --install-extension "redhat.vscode-yaml" --force
 code --install-extension "ritwickdey.LiveServer" --force  
 code --install-extension "rohgarg.jekyll-post" --force  
 code --install-extension "rpinski.shebang-snippets" --force  
-code --install-extension "Shan.code-settings-sync" --force  
 code --install-extension "sidneys1.gitconfig" --force  
 code --install-extension "sissel.shopify-liquid" --force  
 code --install-extension "streetsidesoftware.code-spell-checker" --force  

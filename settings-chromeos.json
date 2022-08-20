@@ -55,9 +55,14 @@
     "2062",
     "1091",
     "2002",
+    "2010",
+    "2012",
+    "2030",
     "2181",
-    "2207",
+    "2129",
     "2148",
+    "2207",
+    "2242",
     "2294"
   ],
   "terminal.integrated.fontFamily": "monospace",
@@ -154,7 +159,11 @@
   },
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
-    "editor.quickSuggestions": true,
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "editor.codeActionsOnSave": {
@@ -215,7 +224,7 @@
     },
     "editor.autoIndent": "full"
   },
-  "cSpell.enabled": false,
+  "cSpell.enabled": true,
   "[shellscript]": {
     "files.eol": "\n",
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -225,7 +234,11 @@
   },
   "files.associations": {
     "*.fish": "fish",
-    "sxhkdrc": "plaintext"
+    "sxhkdrc": "plaintext",
+    "vimrc": "viml",
+    "tmux": "tmux",
+    "*.json": "json",
+    "*.1": "manpage"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
@@ -269,5 +282,6 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "enableTelemetry": false,
-  "bracket-pair-colorizer-2.depreciation-notice": false
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "git.autofetch": true
 }

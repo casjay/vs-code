@@ -33,6 +33,7 @@ Ctrl+`
 ```
 
 Create New Terminal
+
 ```
 Shift+Ctrl+`
 Shift+Ctrl+`
@@ -69,6 +70,7 @@ Shift+Ctrl+E
 ```
 
 Open File/Folder From Sidebar
+
 ```
 Cmd+Down
 Ctrl+Down
@@ -124,12 +126,14 @@ Ctrl+W
 ```
 
 Delete File
+
 ```
 Cmd+Delete
 Ctrl+Delete
 ```
 
 Reopen Files
+
 ```
 Shift+Cmd+T
 Shift+Ctrl+T
@@ -290,4 +294,3 @@ Go to Entity (Functions, vars, etc)
 Cmd+Shift+O
 Ctrl+Shift+O
 ```
-

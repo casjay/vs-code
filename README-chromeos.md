@@ -1,18 +1,20 @@
-# My vscode settings for chromebook  
-Download and install from https://code.visualstudio.com/download 
+# My vscode settings for linux  
+
+Download and install from [https://code.visualstudio.com](https://code.visualstudio.com/download)  
   
-## Created using:
+## Created using
 
 ```shell
-code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force  |g'
-``` 
+code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force|g'
+```
 
-# Initialize
+## Initialize
+
 ```shell
 code --install-extension "Shan.code-settings-sync" --force
 ```
 
-# install extensions  
+## install extensions  
   
 ```shell
 code --install-extension "aaron-bond.better-comments" --force

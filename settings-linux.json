@@ -2,7 +2,7 @@
   "sync.gist": "3ef2c13d3ff75fa4f7fe565c46781837",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'Consolas', 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 18,
@@ -14,7 +14,7 @@
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.wordWrapColumn": 200,
+  "editor.wordWrapColumn": 160,
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
   "files.insertFinalNewline": true,
@@ -24,12 +24,19 @@
   "git.enableCommitSigning": true,
   "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
-  "html.format.endWithNewline": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.orderedList": true,
   "php.validate.executablePath": "php",
+  "powershell.startAsLoginShell.linux": true,
+  "powershell.codeFormatting.useCorrectCasing": true,
+  "powershell.codeFormatting.useConstantStrings": true,
+  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
   "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.powerShellDefaultVersion": "PowerShell Core 7",
+  "powershell.powerShellAdditionalExePaths": {
+    "PowerShell Core 7": "~/.local/bin/powershell"
+  },
   "search.showLineNumbers": true,
   "shellcheck.enable": true,
   "shellcheck.enableQuickFix": true,
@@ -73,28 +80,32 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "redhat.telemetry.enabled": true,
   "editor.inlineSuggest.enabled": true,
-  "github.copilot.advanced": {},
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "workbench.editor.untitled.hint": "hidden",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[jsonc]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[xml]": {
-    "editor.defaultFormatter": "DotJoshJohnson.xml"
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[zone]": {
@@ -102,6 +113,10 @@
   },
   "[plaintext]": {
     "editor.formatOnSave": false
+  },
+  "[hosts]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -181,12 +196,12 @@
       "savePath": "/assets/css"
     }
   ],
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "scss.validate": false,
   "scss.lint.unknownAtRules": "ignore",
   "scss.lint.unknownProperties": "ignore",
   "liveSassCompile.settings.autoprefix": [],
-  "scss.validate": false,
   "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "markdownlint.config": {
     "MD012": false,
     "MD013": false,
@@ -239,7 +254,8 @@
     "tmux": "tmux",
     "*.json": "json",
     "*.1": "manpage",
-    ".rpmmacro": "plaintext"
+    ".rpmmacro": "plaintext",
+    "*.sh": "shellscript"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
@@ -249,7 +265,7 @@
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "[perl]": {
-    "editor.defaultFormatter": "zhiyuan-lin.simple-perl"
+    "editor.defaultFormatter": null
   },
   "gremlins.characters": {
     "000c": {
@@ -258,8 +274,8 @@
       "overviewRulerColor": "rgba(255,127,80,1)"
     }
   },
-  "workbench.iconTheme": "file-icons",
   "cmake.configureOnOpen": false,
+  "workbench.iconTheme": "file-icons",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -275,15 +291,13 @@
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
   "[php]": {
-    "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
     "editor.formatOnSave": true
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": null
   },
   "enableTelemetry": false,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "git.autofetch": true,
-  "window.zoomLevel": 1,
-  "vsicons.dontShowNewVersionMessage": true
+  "window.zoomLevel": 2
 }

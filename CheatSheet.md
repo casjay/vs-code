@@ -4,19 +4,17 @@ Collection of useful VS Code shortcuts
 
 ## Quick Links
 
-- [General](#General)
+1. [VS Code Cheat Sheet](#vs-code-cheat-sheet)
+   1. [Quick Links](#quick-links)
+   2. [General](#general)
+   3. [Basic Editing](#basic-editing)
+   4. [Navigation](#navigation)
+   5. [Sidebar](#sidebar)
+   6. [Search And Replace](#search-and-replace)
+   7. [Multi Cursor And Selection](#multi-cursor-and-selection)
+   8. [Enhance Editing](#enhance-editing)
 
-- [Basic Editing](#Basic-Editing)
-
-- [Navigation](#Navigation)
-
-- [Sidebar](#Sidebar)
-
-- [Search And Replace](#Search-And-Replace)
-
-- [Multi Cursor And Selection](#Multi-Cursor-And-Selection)
-
-* [Enhance Editing](#Enhance-Editing)
+* [Enhance Editing](#enhance-editing)
 
 ---
 

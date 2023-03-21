@@ -1,23 +1,26 @@
-# My Visual Studio [Code](https://code.visualstudio.com/#alt-downloads) settings for code-server 
-  
-# install extensions  
+# My Visual Studio settings for code-server
+
+Download and install from [https://code.visualstudio.com](https://code.visualstudio.com/#alt-downloads)  
+
+## install extensions  
 
 ```shell
-code-server --install-extension aaron-bond.better-comments  
-code-server --install-extension ahmadawais.shades-of-purple  
-code-server --install-extension bengreenier.vscode-node-readme  
-code-server --install-extension christian-kohler.npm-intellisense  
-code-server --install-extension Cjay.ruby-and-rails-snippets  
-code-server --install-extension CoenraadS.bracket-pair-colorizer  
-code-server --install-extension d9705996.perl-toolbox  
-code-server --install-extension DavidAnson.vscode-markdownlint  
-code-server --install-extension dbaeumer.vscode-eslint  
+code-server --install-extension aaron-bond.better-comments
+code-server --install-extension ahmadawais.shades-of-purple
+code-server --install-extension bengreenier.vscode-node-readme
+code-server --install-extension christian-kohler.npm-intellisense
+code-server --install-extension Cjay.ruby-and-rails-snippets
+code-server --install-extension CoenraadS.bracket-pair-colorizer
+code-server --install-extension d9705996.perl-toolbox
+code-server --install-extension DavidAnson.vscode-markdownlint
+code-server --install-extension dbaeumer.vscode-eslint
 code-server --install-extension dotiful.dotfiles-syntax-highlighting
 code-server --install-extension DotJoshJohnson.xml
 code-server --install-extension dsznajder.es7-react-js-snippets
 code-server --install-extension duniul.dircolors
 code-server --install-extension dunstontc.viml
-code-server --install-extension eamodio.gitlens code-server --install-extension EditorConfig.EditorConfig
+code-server --install-extension eamodio.gitlens 
+code-server --install-extension EditorConfig.EditorConfig
 code-server --install-extension eliostruyf.vscode-front-matter
 code-server --install-extension esbenp.prettier-vscode
 code-server --install-extension formulahendry.auto-rename-tag

@@ -275,7 +275,6 @@
     }
   },
   "cmake.configureOnOpen": false,
-  "workbench.iconTheme": "file-icons",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -299,5 +298,6 @@
   },
   "enableTelemetry": false,
   "git.autofetch": true,
-  "window.zoomLevel": 2
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Dracula Soft"
 }

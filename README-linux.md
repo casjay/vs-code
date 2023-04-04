@@ -35,6 +35,7 @@ code --install-extension "DEVSENSE.composer-php-vscode" --force
 code --install-extension "DEVSENSE.phptools-vscode" --force
 code --install-extension "dotiful.dotfiles-syntax-highlighting" --force
 code --install-extension "DotJoshJohnson.xml" --force
+code --install-extension "dracula-theme.theme-dracula" --force
 code --install-extension "duniul.dircolors" --force
 code --install-extension "dunstontc.viml" --force
 code --install-extension "EditorConfig.EditorConfig" --force
@@ -43,6 +44,7 @@ code --install-extension "esbenp.prettier-vscode" --force
 code --install-extension "file-icons.file-icons" --force
 code --install-extension "formulahendry.auto-rename-tag" --force
 code --install-extension "foxundermoon.shell-format" --force
+code --install-extension "ginfuru.ginfuru-vscode-jekyll-syntax" --force
 code --install-extension "hangxingliu.vscode-nginx-conf-hint" --force
 code --install-extension "HexcodeTechnologies.vscode-prettydiff" --force
 code --install-extension "hogashi.crontab-syntax-highlight" --force
@@ -59,7 +61,7 @@ code --install-extension "quicktype.quicktype" --force
 code --install-extension "redhat.vscode-yaml" --force
 code --install-extension "ritwickdey.LiveServer" --force
 code --install-extension "rpinski.shebang-snippets" --force
-code --install-extension "Shan.code-settings-sync" --force
+code --install-extension "sissel.shopify-liquid" --force
 code --install-extension "timonwong.shellcheck" --force
 code --install-extension "tommasov.hosts" --force
 code --install-extension "TzachOvadia.todo-list" --force
@@ -75,5 +77,4 @@ code --install-extension "ZainChen.json" --force
 ```
   
 [My linux settings file](https://github.com/casjay/vs-code/blob/main/settings-linux.json)  
-  
   

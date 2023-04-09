@@ -5,14 +5,9 @@ Download and install from [https://code.visualstudio.com](https://code.visualstu
 ## Created using
 
 ```shell
-code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force  |g'
+code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force|g'
 ```
 
-## Initialize
-
-```shell
-code --install-extension "Shan.code-settings-sync" --force
-```
 
 ## install extensions  
 
@@ -22,8 +17,12 @@ code --install-extension "aaron-bond.better-comments" --force
 code --install-extension "bengreenier.vscode-node-readme" --force
 code --install-extension "bierner.emojisense" --force
 code --install-extension "bierner.github-markdown-preview" --force
+code --install-extension "bierner.markdown-checkbox" --force
 code --install-extension "bierner.markdown-emoji" --force
+code --install-extension "bierner.markdown-footnotes" --force
+code --install-extension "bierner.markdown-mermaid" --force
 code --install-extension "bierner.markdown-preview-github-styles" --force
+code --install-extension "bierner.markdown-yaml-preamble" --force
 code --install-extension "bmalehorn.vscode-fish" --force
 code --install-extension "bungcip.better-toml" --force
 code --install-extension "Compilenix.vscode-zonefile" --force
@@ -33,6 +32,7 @@ code --install-extension "DavidAnson.vscode-markdownlint" --force
 code --install-extension "dbaeumer.vscode-eslint" --force
 code --install-extension "DEVSENSE.composer-php-vscode" --force
 code --install-extension "DEVSENSE.phptools-vscode" --force
+code --install-extension "DEVSENSE.profiler-php-vscode" --force
 code --install-extension "dotiful.dotfiles-syntax-highlighting" --force
 code --install-extension "DotJoshJohnson.xml" --force
 code --install-extension "dracula-theme.theme-dracula" --force
@@ -55,6 +55,7 @@ code --install-extension "mechatroner.rainbow-csv" --force
 code --install-extension "mrmlnc.vscode-apache" --force
 code --install-extension "ms-azuretools.vscode-docker" --force
 code --install-extension "ms-vscode-remote.remote-containers" --force
+code --install-extension "nhoizey.gremlins" --force
 code --install-extension "nico-castell.linux-desktop-file" --force
 code --install-extension "oderwat.indent-rainbow" --force
 code --install-extension "quicktype.quicktype" --force
@@ -65,6 +66,7 @@ code --install-extension "sissel.shopify-liquid" --force
 code --install-extension "timonwong.shellcheck" --force
 code --install-extension "tommasov.hosts" --force
 code --install-extension "TzachOvadia.todo-list" --force
+code --install-extension "VisualStudioExptTeam.intellicode-api-usage-examples" --force
 code --install-extension "VisualStudioExptTeam.vscodeintellicode" --force
 code --install-extension "Vue.volar" --force
 code --install-extension "Vue.vscode-typescript-vue-plugin" --force

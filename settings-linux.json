@@ -1,10 +1,20 @@
 {
+  "enableTelemetry": false,
+  "update.showReleaseNotes": false,
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.env.windows": {},
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+  "editor.fontSize": 12,
+  "editor.codeLensFontSize": 12,
+  "editor.inlayHints.fontSize": 10,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'Consolas', 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 18,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
@@ -16,17 +26,52 @@
   "editor.wordWrapColumn": 160,
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.autoIndent": "full",
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "editor.definitionLinkOpensInPeek": true,
-  "update.showReleaseNotes": false,
+  "files.autoSave": "onWindowChange",
+  "git.autofetch": true,
   "git.enableCommitSigning": true,
   "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.orderedList": true,
-  "php.validate.executablePath": "php",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.iconTheme": "file-icons",
+  "cmake.configureOnOpen": false,
+  "markdown.extension.print.theme": "dark",
+  "markdown.extension.toc.omittedFromToc": {},
+  "markdown.preview.breaks": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "better-comments.highlightPlainText": true,
+  "python.languageServer": "Default",
+  "cSpell.userWords": [],
+  "scss.validate": false,
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownProperties": "ignore",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "search.showLineNumbers": true,
   "powershell.startAsLoginShell.linux": true,
   "powershell.codeFormatting.useCorrectCasing": true,
   "powershell.codeFormatting.useConstantStrings": true,
@@ -36,7 +81,6 @@
   "powershell.powerShellAdditionalExePaths": {
     "PowerShell Core 7": "~/.local/bin/powershell"
   },
-  "search.showLineNumbers": true,
   "shellcheck.enable": true,
   "shellcheck.enableQuickFix": true,
   "shellcheck.run": "onType",
@@ -71,18 +115,6 @@
     "2242",
     "2294"
   ],
-  "terminal.integrated.fontFamily": "monospace",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.enablePreview": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "redhat.telemetry.enabled": true,
-  "editor.inlineSuggest.enabled": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  "workbench.editor.untitled.hint": "hidden",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[jsonc]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -195,39 +227,17 @@
       "savePath": "/assets/css"
     }
   ],
-  "scss.validate": false,
-  "scss.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownProperties": "ignore",
-  "liveSassCompile.settings.autoprefix": [],
-  "liveSassCompile.settings.generateMap": false,
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "markdownlint.config": {
     "MD012": false,
     "MD013": false,
     "MD033": false,
     "MD041": false
   },
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "better-comments.highlightPlainText": true,
-  "python.languageServer": "Default",
-  "files.autoSave": "onWindowChange",
-  "terminal.integrated.env.windows": {},
-  "cSpell.userWords": [],
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
     "strings": true
   },
-  "editor.acceptSuggestionOnCommitCharacter": true,
-  "editor.suggestOnTriggerCharacters": true,
-  "editor.wordBasedSuggestions": true,
-  "editor.parameterHints.enabled": true,
-  "markdown.extension.print.theme": "dark",
-  "markdown.extension.toc.omittedFromToc": {},
-  "markdown.preview.breaks": true,
   "[home-assistant]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
@@ -236,7 +246,6 @@
       "comments": false,
       "strings": true
     },
-    "editor.autoIndent": "full"
   },
   "cSpell.enabled": true,
   "[shellscript]": {
@@ -273,7 +282,6 @@
       "overviewRulerColor": "rgba(255,127,80,1)"
     }
   },
-  "cmake.configureOnOpen": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -286,8 +294,7 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "security.workspace.trust.untrustedFiles": "open",
-  "security.workspace.trust.enabled": false,
+  "php.validate.executablePath": "php",
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
     "editor.formatOnSave": true
@@ -295,8 +302,4 @@
   "[python]": {
     "editor.defaultFormatter": null
   },
-  "enableTelemetry": false,
-  "git.autofetch": true,
-  "window.zoomLevel": 2,
-  "workbench.colorTheme": "Dracula Soft"
 }

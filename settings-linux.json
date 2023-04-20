@@ -43,6 +43,7 @@
   "git.showPushSuccessNotification": true,
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.orderedList": true,
+  "workbench.colorTheme": "Dracula",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.enablePreview": false,
@@ -63,9 +64,6 @@
   "scss.lint.unknownAtRules": "ignore",
   "scss.lint.unknownProperties": "ignore",
   "liveServer.settings.donotShowInfoMsg": true,
-  "liveSassCompile.settings.autoprefix": [],
-  "liveSassCompile.settings.generateMap": false,
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "redhat.telemetry.enabled": true,
@@ -220,6 +218,9 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "liveSassCompile.settings.formats": [
     {
       "format": "compressed",
@@ -245,7 +246,7 @@
       "other": true,
       "comments": false,
       "strings": true
-    },
+    }
   },
   "cSpell.enabled": true,
   "[shellscript]": {
@@ -301,5 +302,5 @@
   },
   "[python]": {
     "editor.defaultFormatter": null
-  },
+  }
 }

@@ -44,6 +44,7 @@ code --install-extension "eiminsasete.apacheconf-snippets" --force
 code --install-extension "esbenp.prettier-vscode" --force
 code --install-extension "file-icons.file-icons" --force
 code --install-extension "formulahendry.auto-rename-tag" --force
+code --install-extension "fosshaas.fontsize-shortcuts" --force
 code --install-extension "foxundermoon.shell-format" --force
 code --install-extension "ginfuru.ginfuru-vscode-jekyll-syntax" --force
 code --install-extension "hangxingliu.vscode-nginx-conf-hint" --force
@@ -73,6 +74,7 @@ code --install-extension "redhat.vscode-yaml" --force
 code --install-extension "ritwickdey.liveserver" --force
 code --install-extension "rpinski.shebang-snippets" --force
 code --install-extension "sissel.shopify-liquid" --force
+code --install-extension "streetsidesoftware.code-spell-checker" --force
 code --install-extension "tamasfe.even-better-toml" --force
 code --install-extension "timonwong.shellcheck" --force
 code --install-extension "tommasov.hosts" --force

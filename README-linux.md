@@ -8,6 +8,12 @@ Download and install from [https://code.visualstudio.com](https://code.visualstu
 code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force|g'
 ```
 
+## Settings json file
+
+```shell
+[ -d "$HOME/.config/Code/User" ] || mkdir -p "$HOME/.config/Code/User"
+$EDITOR "$HOME/.config/Code/User/settings.json"
+```
 
 ## install extensions  
 

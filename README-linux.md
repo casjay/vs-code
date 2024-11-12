@@ -8,13 +8,6 @@ Download and install from [https://code.visualstudio.com](https://code.visualstu
 code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --install-extension "|g;s|$|" --force|g'
 ```
 
-## Settings json file
-
-```shell
-[ -d "$HOME/.config/Code/User" ] || mkdir -p "$HOME/.config/Code/User"
-$EDITOR "$HOME/.config/Code/User/settings.json"
-```
-
 ## install extensions  
 
 ```shell
@@ -94,6 +87,14 @@ code --install-extension "yinfei.luahelper" --force
 code --install-extension "yzhang.markdown-all-in-one" --force
 code --install-extension "zainchen.json" --force
 ```
-  
+
+## Settings json file
+
+```shell
+[ -d "$HOME/.config/Code/User" ] || mkdir -p "$HOME/.config/Code/User"
+$EDITOR "$HOME/.config/Code/User/settings.json"
+```
+
+## Setting
 [My linux settings file](https://github.com/casjay/vs-code/blob/main/settings-linux.json)  
   

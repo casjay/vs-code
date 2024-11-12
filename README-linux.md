@@ -88,13 +88,14 @@ code --install-extension "yzhang.markdown-all-in-one" --force
 code --install-extension "zainchen.json" --force
 ```
 
-## Settings json file
+## Edit Setting
 
 ```shell
 [ -d "$HOME/.config/Code/User" ] || mkdir -p "$HOME/.config/Code/User"
 $EDITOR "$HOME/.config/Code/User/settings.json"
 ```
 
-## Setting
+## Settings json file
+
 [My linux settings file](https://github.com/casjay/vs-code/blob/main/settings-linux.json)  
   

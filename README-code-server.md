@@ -5,61 +5,81 @@ Download and install from [https://code.visualstudio.com](https://code.visualstu
 ## install extensions  
 
 ```shell
-code-server --install-extension aaron-bond.better-comments
-code-server --install-extension ahmadawais.shades-of-purple
-code-server --install-extension bengreenier.vscode-node-readme
-code-server --install-extension christian-kohler.npm-intellisense
-code-server --install-extension Cjay.ruby-and-rails-snippets
-code-server --install-extension CoenraadS.bracket-pair-colorizer
-code-server --install-extension d9705996.perl-toolbox
-code-server --install-extension DavidAnson.vscode-markdownlint
-code-server --install-extension dbaeumer.vscode-eslint
-code-server --install-extension dotiful.dotfiles-syntax-highlighting
-code-server --install-extension DotJoshJohnson.xml
-code-server --install-extension dsznajder.es7-react-js-snippets
-code-server --install-extension duniul.dircolors
-code-server --install-extension dunstontc.viml
-code-server --install-extension eamodio.gitlens 
-code-server --install-extension EditorConfig.EditorConfig
-code-server --install-extension eliostruyf.vscode-front-matter
-code-server --install-extension esbenp.prettier-vscode
-code-server --install-extension formulahendry.auto-rename-tag
-code-server --install-extension foxundermoon.shell-format
-code-server --install-extension ginfuru.ginfuru-vscode-jekyll-syntax
-code-server --install-extension ginfuru.vscode-jekyll-snippets
-code-server --install-extension glen-84.sass-lint
-code-server --install-extension HookyQR.beautify
-code-server --install-extension keesschollaart.vscode-home-assistant
-code-server --install-extension ms-azuretools.vscode-docker
-code-server --install-extension ms-python.python
-code-server --install-extension ms-vscode.powershell
-code-server --install-extension ms-vsliveshare.vsliveshare
-code-server --install-extension octref.vetur
-code-server --install-extension oderwat.indent-rainbow
-code-server --install-extension piotrpalarz.vscode-gitignore-generator
-code-server --install-extension PKief.material-icon-theme
-code-server --install-extension rebornix.ruby
-code-server --install-extension redhat.vscode-yaml
-code-server --install-extension ritwickdey.live-sass
-code-server --install-extension ritwickdey.LiveServer
-code-server --install-extension rohgarg.jekyll-post
-code-server --install-extension rpinski.shebang-snippets
-code-server --install-extension rubbersheep.gi
-code-server --install-extension Shan.code-settings-sync
-code-server --install-extension sidneys1.gitconfig
-code-server --install-extension SimonSiefke.prettier-vscode
-code-server --install-extension sissel.shopify-liquid
-code-server --install-extension streetsidesoftware.code-spell-checker
-code-server --install-extension syler.sass-indented
-code-server --install-extension tanming363.bootstrap-v4
-code-server --install-extension thomascsd.vscode-readme-pattern
-code-server --install-extension timonwong.shellcheck
-code-server --install-extension tomzx.emoji
-code-server --install-extension TzachOvadia.todo-list
-code-server --install-extension VisualStudioExptTeam.vscodeintellicode
-code-server --install-extension vscode-snippet.snippet
-code-server --install-extension wingrunr21.vscode-ruby
-code-server --install-extension Wscats.eno
-code-server --install-extension yzhang.markdown-all-in-one
-code-server --install-extension ZainChen.json
+code-server --install-extension "1dot75cm.rpmspec" --force
+code-server --install-extension "aaron-bond.better-comments" --force
+code-server --install-extension "bengreenier.vscode-node-readme" --force
+code-server --install-extension "bierner.emojisense" --force
+code-server --install-extension "bierner.github-markdown-preview" --force
+code-server --install-extension "bierner.markdown-checkbox" --force
+code-server --install-extension "bierner.markdown-emoji" --force
+code-server --install-extension "bierner.markdown-footnotes" --force
+code-server --install-extension "bierner.markdown-mermaid" --force
+code-server --install-extension "bierner.markdown-preview-github-styles" --force
+code-server --install-extension "bierner.markdown-yaml-preamble" --force
+code-server --install-extension "bmalehorn.vscode-fish" --force
+code-server --install-extension "chrmarti.ssh" --force
+code-server --install-extension "compilenix.vscode-zonefile" --force
+code-server --install-extension "compilouit.manpage" --force
+code-server --install-extension "coolbear.systemd-unit-file" --force
+code-server --install-extension "davidanson.vscode-markdownlint" --force
+code-server --install-extension "dbaeumer.vscode-eslint" --force
+code-server --install-extension "denoland.vscode-deno" --force
+code-server --install-extension "devsense.composer-php-vscode" --force
+code-server --install-extension "devsense.intelli-php-vscode" --force
+code-server --install-extension "devsense.phptools-vscode" --force
+code-server --install-extension "devsense.profiler-php-vscode" --force
+code-server --install-extension "dotiful.dotfiles-syntax-highlighting" --force
+code-server --install-extension "dotjoshjohnson.xml" --force
+code-server --install-extension "dracula-theme.theme-dracula" --force
+code-server --install-extension "duniul.dircolors" --force
+code-server --install-extension "dunstontc.viml" --force
+code-server --install-extension "editorconfig.editorconfig" --force
+code-server --install-extension "eiminsasete.apacheconf-snippets" --force
+code-server --install-extension "esbenp.prettier-vscode" --force
+code-server --install-extension "file-icons.file-icons" --force
+code-server --install-extension "formulahendry.auto-rename-tag" --force
+code-server --install-extension "fosshaas.fontsize-shortcuts" --force
+code-server --install-extension "foxundermoon.shell-format" --force
+code-server --install-extension "ginfuru.ginfuru-vscode-jekyll-syntax" --force
+code-server --install-extension "hangxingliu.vscode-nginx-conf-hint" --force
+code-server --install-extension "hexcodetechnologies.vscode-prettydiff" --force
+code-server --install-extension "hogashi.crontab-syntax-highlight" --force
+code-server --install-extension "justusadam.language-haskell" --force
+code-server --install-extension "malmaud.tmux" --force
+code-server --install-extension "mariusalchimavicius.json-to-ts" --force
+code-server --install-extension "mechatroner.rainbow-csv" --force
+code-server --install-extension "mousavian.ssh-config-syntax-highlighter" --force
+code-server --install-extension "mrmlnc.vscode-apache" --force
+code-server --install-extension "ms-azuretools.vscode-docker" --force
+code-server --install-extension "ms-python.debugpy" --force
+code-server --install-extension "ms-python.python" --force
+code-server --install-extension "ms-python.vscode-pylance" --force
+code-server --install-extension "ms-toolsai.jupyter" --force
+code-server --install-extension "ms-toolsai.jupyter-keymap" --force
+code-server --install-extension "ms-toolsai.jupyter-renderers" --force
+code-server --install-extension "ms-toolsai.vscode-jupyter-cell-tags" --force
+code-server --install-extension "ms-toolsai.vscode-jupyter-slideshow" --force
+code-server --install-extension "ms-vscode-remote.remote-containers" --force
+code-server --install-extension "ms-vscode.live-server" --force
+code-server --install-extension "nhoizey.gremlins" --force
+code-server --install-extension "nico-castell.linux-desktop-file" --force
+code-server --install-extension "oderwat.indent-rainbow" --force
+code-server --install-extension "quicktype.quicktype" --force
+code-server --install-extension "redhat.vscode-yaml" --force
+code-server --install-extension "ritwickdey.liveserver" --force
+code-server --install-extension "rpinski.shebang-snippets" --force
+code-server --install-extension "sissel.shopify-liquid" --force
+code-server --install-extension "streetsidesoftware.code-spell-checker" --force
+code-server --install-extension "tamasfe.even-better-toml" --force
+code-server --install-extension "timonwong.shellcheck" --force
+code-server --install-extension "tommasov.hosts" --force
+code-server --install-extension "tzachovadia.todo-list" --force
+code-server --install-extension "visualstudioexptteam.intellicode-api-usage-examples" --force
+code-server --install-extension "visualstudioexptteam.vscodeintellicode" --force
+code-server --install-extension "vue.volar" --force
+code-server --install-extension "wakatime.vscode-wakatime" --force
+code-server --install-extension "wscats.eno" --force
+code-server --install-extension "yinfei.luahelper" --force
+code-server --install-extension "yzhang.markdown-all-in-one" --force
+code-server --install-extension "zainchen.json" --force
 ```

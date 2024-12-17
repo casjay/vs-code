@@ -32,7 +32,7 @@
   "editor.autoIndent": "full",
   "editor.acceptSuggestionOnCommitCharacter": true,
   "editor.suggestOnTriggerCharacters": true,
-  "editor.wordBasedSuggestions": true,
+  "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.parameterHints.enabled": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -43,7 +43,6 @@
   "git.showPushSuccessNotification": true,
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.orderedList": true,
-  "workbench.colorTheme": "Dracula",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.enablePreview": false,
@@ -211,8 +210,8 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.markdownlint": true,
-    "source.fixAll.eslint": true
+    "source.fixAll.markdownlint": "explicit",
+    "source.fixAll.eslint": "explicit"
   },
   "cSpell.language": "en,en-US",
   "[json]": {
@@ -302,5 +301,6 @@
   },
   "[python]": {
     "editor.defaultFormatter": null
-  }
+  },
+  "workbench.colorTheme": "Dracula Theme"
 }

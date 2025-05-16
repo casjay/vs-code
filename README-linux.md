@@ -53,6 +53,7 @@ code --install-extension "justusadam.language-haskell" --force
 code --install-extension "malmaud.tmux" --force
 code --install-extension "mariusalchimavicius.json-to-ts" --force
 code --install-extension "mechatroner.rainbow-csv" --force
+code --install-extension "mousavian.ssh-config-syntax-highlighter" --force
 code --install-extension "mrmlnc.vscode-apache" --force
 code --install-extension "ms-azuretools.vscode-docker" --force
 code --install-extension "ms-python.debugpy" --force
@@ -72,6 +73,7 @@ code --install-extension "quicktype.quicktype" --force
 code --install-extension "redhat.vscode-yaml" --force
 code --install-extension "ritwickdey.liveserver" --force
 code --install-extension "rpinski.shebang-snippets" --force
+code --install-extension "shopify.ruby-lsp" --force
 code --install-extension "sissel.shopify-liquid" --force
 code --install-extension "streetsidesoftware.code-spell-checker" --force
 code --install-extension "tamasfe.even-better-toml" --force

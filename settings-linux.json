@@ -7,7 +7,7 @@
   "terminal.integrated.env.windows": {},
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
-  "editor.fontSize": 12,
+  "editor.fontSize": 16,
   "editor.codeLensFontSize": 12,
   "editor.inlayHints.fontSize": 10,
   "editor.bracketPairColorization.enabled": true,
@@ -48,6 +48,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "file-icons",
+  "workbench.sideBar.location": "right",
   "cmake.configureOnOpen": false,
   "markdown.extension.print.theme": "dark",
   "markdown.extension.toc.omittedFromToc": {},
@@ -302,5 +303,6 @@
   "[python]": {
     "editor.defaultFormatter": null
   },
-  "workbench.colorTheme": "Dracula Theme"
+  "workbench.colorTheme": "Dracula Theme",
+  "editor.lineHeight": 0
 }

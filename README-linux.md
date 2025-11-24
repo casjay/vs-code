@@ -98,14 +98,19 @@ code --install-extension "zainchen.json" --force
 
 ```
 
-## Edit Setting
+## Download Settings
 
 ```shell
 [ -d "$HOME/.config/Code/User" ] || mkdir -p "$HOME/.config/Code/User"
-$EDITOR "$HOME/.config/Code/User/settings.json"
+curl -q -LSsf "https://github.com/casjay/vs-code/raw/refs/heads/main/settings-linux.json" "$HOME/.config/Code/User/settings.json" 
+```
+
+## Edit Setting
+
+```shell
+code "$HOME/.config/Code/User/settings.json"
 ```
 
 ## Settings json file
 
 [My linux settings file](https://github.com/casjay/vs-code/blob/main/settings-linux.json)  
-  

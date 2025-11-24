@@ -6,8 +6,8 @@
   "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.env.windows": {},
   "security.workspace.trust.untrustedFiles": "open",
-  "security.workspace.trust.enabled": false,
-  "editor.fontSize": 16,
+  "security.workspace.trust.enabled": true,
+  "editor.fontSize": 15,
   "editor.codeLensFontSize": 12,
   "editor.inlayHints.fontSize": 10,
   "editor.bracketPairColorization.enabled": true,
@@ -82,7 +82,6 @@
   "shellcheck.enable": true,
   "shellcheck.enableQuickFix": true,
   "shellcheck.run": "onType",
-  "shellcheck.executablePath": "",
   "shellcheck.ignoreFileSchemes": ["git", "gitfs"],
   "shellcheck.exclude": [
     "1090",
@@ -251,27 +250,29 @@
   "cSpell.enabled": true,
   "[shellscript]": {
     "files.eol": "\n",
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "mkhl.shfmt",
+    "editor.formatOnSave": true
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
     "*.fish": "fish",
+    "*.bash": "shellscript",
+    "*.sh": "shellscript",
     "sxhkdrc": "plaintext",
     "vimrc": "viml",
     "tmux": "tmux",
     "*.json": "json",
     "*.1": "manpage",
-    ".rpmmacro": "plaintext",
-    "*.sh": "shellscript"
+    ".rpmmacro": "plaintext"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
   },
   "[perl]": {
     "editor.defaultFormatter": null
@@ -304,5 +305,26 @@
     "editor.defaultFormatter": null
   },
   "workbench.colorTheme": "Dracula Theme",
-  "editor.lineHeight": 0
+  "editor.lineHeight": 0,
+  "telemetry.feedback.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "shellformat.useEditorConfig": true,
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli",
+    "bats"
+  ],
+  "shellformat.path": "/usr/bin/shfmt",
+  "shellformat.flag": "-i 2 -sr -bn -ci",
+  "prettier.disableLanguages": ["shellscript", "dotenv", "ignore"],
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "prettier.printWidth": 160
 }

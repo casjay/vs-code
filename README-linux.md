@@ -14,6 +14,7 @@ code --list-extensions | awk '{print $1}' | sed 's|"||g;s|,||g;s|^|code --instal
 code --install-extension "1dot75cm.rpmspec" --force
 code --install-extension "aaron-bond.better-comments" --force
 code --install-extension "adam-watters.vscode-color-pick" --force
+code --install-extension "anthropic.claude-code" --force
 code --install-extension "bengreenier.vscode-node-readme" --force
 code --install-extension "bierner.emojisense" --force
 code --install-extension "bierner.github-markdown-preview" --force
@@ -47,6 +48,8 @@ code --install-extension "formulahendry.auto-rename-tag" --force
 code --install-extension "fosshaas.fontsize-shortcuts" --force
 code --install-extension "foxundermoon.shell-format" --force
 code --install-extension "ginfuru.ginfuru-vscode-jekyll-syntax" --force
+code --install-extension "github.copilot" --force
+code --install-extension "github.copilot-chat" --force
 code --install-extension "golang.go" --force
 code --install-extension "hangxingliu.vscode-nginx-conf-hint" --force
 code --install-extension "hexcodetechnologies.vscode-prettydiff" --force
@@ -55,6 +58,7 @@ code --install-extension "justusadam.language-haskell" --force
 code --install-extension "malmaud.tmux" --force
 code --install-extension "mariusalchimavicius.json-to-ts" --force
 code --install-extension "mechatroner.rainbow-csv" --force
+code --install-extension "mkhl.shfmt" --force
 code --install-extension "mousavian.ssh-config-syntax-highlighter" --force
 code --install-extension "mrmlnc.vscode-apache" --force
 code --install-extension "ms-azuretools.vscode-containers" --force
@@ -62,6 +66,7 @@ code --install-extension "ms-azuretools.vscode-docker" --force
 code --install-extension "ms-python.debugpy" --force
 code --install-extension "ms-python.python" --force
 code --install-extension "ms-python.vscode-pylance" --force
+code --install-extension "ms-python.vscode-python-envs" --force
 code --install-extension "ms-toolsai.jupyter" --force
 code --install-extension "ms-toolsai.jupyter-keymap" --force
 code --install-extension "ms-toolsai.jupyter-renderers" --force
@@ -83,8 +88,6 @@ code --install-extension "tamasfe.even-better-toml" --force
 code --install-extension "timonwong.shellcheck" --force
 code --install-extension "tommasov.hosts" --force
 code --install-extension "tzachovadia.todo-list" --force
-code --install-extension "visualstudioexptteam.intellicode-api-usage-examples" --force
-code --install-extension "visualstudioexptteam.vscodeintellicode" --force
 code --install-extension "vue.volar" --force
 code --install-extension "wakatime.vscode-wakatime" --force
 code --install-extension "wdhongtw.gpg-indicator" --force
@@ -92,6 +95,7 @@ code --install-extension "wscats.eno" --force
 code --install-extension "yinfei.luahelper" --force
 code --install-extension "yzhang.markdown-all-in-one" --force
 code --install-extension "zainchen.json" --force
+
 ```
 
 ## Edit Setting

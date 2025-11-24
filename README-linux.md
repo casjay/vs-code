@@ -102,7 +102,7 @@ code --install-extension "zainchen.json" --force
 
 ```shell
 [ -d "$HOME/.config/Code/User" ] || mkdir -p "$HOME/.config/Code/User"
-curl -q -LSsf "https://github.com/casjay/vs-code/raw/refs/heads/main/settings-linux.json" "$HOME/.config/Code/User/settings.json" 
+curl -q -LSsf "https://github.com/casjay/vs-code/raw/refs/heads/main/settings-linux.json" -o "$HOME/.config/Code/User/settings.json" 
 ```
 
 ## Edit Setting
